@@ -1,0 +1,1 @@
+WearHouse is a single-file fashion wardrobe and style studio. Open index.html via localhost/HTTPS to install as a PWA, or use README_BUILD.txt to package the app for Android. No sample wardrobe or generated community posts are included.

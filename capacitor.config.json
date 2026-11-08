@@ -1,0 +1,9 @@
+{
+  "appId": "com.wearhouse.studio",
+  "appName": "WearHouse",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "url": "https://calm-sunflower-216b09.netlify.app"
+  }
+}

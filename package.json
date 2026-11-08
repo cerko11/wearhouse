@@ -1,0 +1,28 @@
+{
+  "name": "wearhouse-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WearHouse mobile app shell",
+  "scripts": {
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@google/genai": "^2.32.0",
+    "@netlify/blobs": "^11.1.7",
+    "@netlify/database": "^2.0.1",
+    "@netlify/functions": "^6.0.3",
+    "@netlify/identity": "^2.0.0",
+    "drizzle-orm": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "@types/node": "^26.6.6",
+    "drizzle-kit": "^1.0.0-beta.22",
+    "typescript": "^7.0.2"
+  },
+  "type": "module"
+}
